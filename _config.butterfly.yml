@@ -1,0 +1,252 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: ""
+subtitle:
+  enable: true
+  # Typewriter Effect (打字效果)
+  effect: true
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 150 # type speed in milliseconds
+  backSpeed: 50 # backspacing speed in milliseconds
+  # loop (循环打字)
+  loop: true
+  # source 调用第三方服务
+  source: 3
+  # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
+  # source: 2  调用一句网（简体） http://yijuzhan.com/
+  # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
+  sub:
+    - 即使年年不见，也要岁岁平安
+
+
+# 个人介绍
+description: '生生'
+keywords:
+author: rieraa
+language: en
+timezone: ''
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: "https://rieraa.github.io"
+
+# logo及导航栏固定
+nav:
+  logo: #image
+  display_title: false
+  fixed: false # fixed navigation bar
+
+# 导航栏配置
+menu:
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder-open
+  Manifest||fa fa-heartbeat:
+    music: /music/ || fas fa-music
+    photo: /gallery/ || fas fa-images
+    movie: /movies/ || fas fa-video
+  Link: /link/ || fas fa-link
+  About: /about/ || fas fa-heart
+
+# 代码块设置
+highlight_theme: light
+highlight_copy: true
+#code_word_wrap: true # 代码块自动换行
+
+# 社交账号设置
+# social:
+#   fab fa-github: https://github.com/xxxxx || Github || "#hdhfbb"
+#   fas fa-envelope: mailto:xxxxxx@gmail.com || Email || "#000000"
+
+#头像设置
+avatar:
+  img: /img/avatar.jpg
+  effect: false # 頭像會一直轉圈
+
+# 背景图设置
+index_img: 'linear-gradient(45deg, rgba(204, 0, 102, 0.6), rgba(190, 60, 160, 0.6), rgba(100, 40, 100, 0.6), rgba(128, 0, 128, 0.6))'
+archive_img: 'linear-gradient(-45deg, rgba(128, 0, 128, 0.6), rgba(80, 40, 80, 0.6), rgba(204, 102, 153, 0.6), rgba(204, 0, 102, 0.6))'
+tag_img: 'linear-gradient(-45deg, rgba(255, 105, 180, 0.6), rgba(128, 0, 128, 0.6), rgba(0, 0, 139, 0.6), rgba(0, 0, 0, 0.6))'
+category_img: 'linear-gradient(-45deg, rgba(0, 31, 63, 0.6), rgba(82, 2, 36, 0.6), rgba(130, 2, 36, 0.6), rgba(255, 105, 180, 0.6))'
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+	type: git
+
+	repository:  git@github.com:rieraa/rieraa.github.io.git
+
+	branch: main
+
+# 访问人数
+#busuanzi:
+#  site_uv: true
+#  site_pv: true
+#  page_pv: true
+
+# A simple 404 page
+error_404:
+  enable: true
+  subtitle: "页面没有找到"
+  background: /img/back.jpg
+# 运行时间 月/日/年 时间
+runtimeshow:
+  enable: true
+  publish_date: 10/10/2023 14:00:00
+
+# 字数统计
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# dark mode
+darkmode:
+  enable: true
+  # dark mode和 light mode切换按钮
+  button: true
+  autoChangeMode: 2
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: "0"
+  end: "1"
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true
+
+inject:
+  head:
+    # 小汽车加载动画
+    # - <link rel="stylesheet" href="css/loadingCar.css"> 
+    #星空背景
+    - <link rel="stylesheet" href="/css/universe.css"> 
+    - <canvas id="universe"></canvas> 
+    - <script defer src="/js/universe.js"></script>
+    # 昼夜模式切换时 更改主题透明度
+    - <link rel="stylesheet" href="/css/transpancy.css">
+
+    # 原神启动加载动画
+#    - <link rel="stylesheet" href="/css/loding.css">
+
+    # 音乐插件
+    - <div class="aplayer no-destroy" data-id="8794872855" data-server="netease"  data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div> 
+
+    # 公告栏计时器插件
+    # - <script src="/js/timing.js"></script>
+
+    
+
+
+
+
+# 主页文章节选
+index_post_content:
+  method: 1
+
+# footer是否显示图片背景(与 top_img一致)
+footer_bg: true
+
+#图片懒加载
+lazyload:
+  enable: true
+  loadingImg: /img/loading.gif
+
+# 加载动画 Loading Animation
+preloader:
+  enable: true
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  source: 2
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url: /css/progress_bar.css
+  avatar: /img/avatar.jpg
+
+
+
+
