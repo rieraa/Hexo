@@ -41,7 +41,7 @@ subject 是 commit 目的的简短描述，不超过 50 个字符。
 
 - 根据以上规范 git commit message 将是如下的格式：
 
-  ```commit
+  ``` 2commit
   fix(DAO):用户查询缺少username属性
   feat(Controller):用户查询接口开发
   ```
