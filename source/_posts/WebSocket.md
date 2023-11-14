@@ -4,7 +4,7 @@ abbrlink: c793072c
 date: 2023-10-11 14:07:21
 tags:
   - websocket
-categories: 网络请求
+categories: 网络通信
 description: 😚
 top_img: "linear-gradient(35deg, rgba(0, 128, 0, 0.6), rgba(255, 255, 0, 0.6), rgba(0, 0, 255, 0.6), rgba(255, 0, 0, 0.6), rgba(128, 0, 128, 0.6))"
 ---
