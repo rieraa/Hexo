@@ -1,13 +1,14 @@
 ---
 title: Pinia
-top_img: 'linear-gradient(45deg, rgba(204, 0, 102, 0.6), rgba(190, 60, 160, 0.6),rgba(100, 40, 100, 0.6), rgba(128, 0, 128, 0.6))'
+abbrlink: 74dce755
+date: 2023-10-13 14:15:15
+updated: 2023-10-13 16:16:32
 tags:
   - StateManagement
   - vue
 description: 🍍
-abbrlink: 74dce755
-date: 2023-10-13 14:15:15
-updated: 2023-10-13 16:16:32
+top_img: 'linear-gradient(45deg, rgba(204, 0, 102, 0.6), rgba(190, 60, 160, 0.6),rgba(100, 40, 100, 0.6), rgba(128, 0, 128, 0.6))'
+
 ---
 
 

@@ -1,12 +1,13 @@
 ---
 title: this指向
-tags:
-categories: JavaScript 深入学习
 abbrlink: 74520f03
 date: 2023-10-13 16:17:21
 updated: 2023-11-13 22:28:36
-top_img: 'linear-gradient(40deg, rgba(255, 0, 0, 0.6), rgba(0, 128, 0, 0.6), rgba(0, 0, 255, 0.6), rgba(255, 255, 0, 0.6), rgba(128, 0, 128, 0.6))'
+tags:
+categories: JavaScript 深入学习
 description: 🎇
+top_img: 'linear-gradient(40deg, rgba(255, 0, 0, 0.6), rgba(0, 128, 0, 0.6), rgba(0, 0, 255, 0.6), rgba(255, 255, 0, 0.6), rgba(128, 0, 128, 0.6))'
+
 ---
 
 

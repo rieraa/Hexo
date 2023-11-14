@@ -1,10 +1,12 @@
 ---
 title: Git Commit
-tags:
-  - git
-top_img: linear-gradient(25deg, rgba(204, 0, 102, 0.6), rgba(128, 0, 128, 0.6),rgba(190, 60, 160, 0.6), rgba(100, 40, 100, 0.6), rgba(0, 0, 255, 0.3))
 abbrlink: 70316f9e
 date: 2023-10-30 17:16:22
+tags:
+  - git
+categories:
+top_img: linear-gradient(25deg, rgba(204, 0, 102, 0.6), rgba(128, 0, 128, 0.6),rgba(190, 60, 160, 0.6), rgba(100, 40, 100, 0.6), rgba(0, 0, 255, 0.3))
+
 description: 🥶
 ---
 

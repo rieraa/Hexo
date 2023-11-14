@@ -1,12 +1,12 @@
 ---
 title: Vue
+abbrlink: f8e09374
+date: 2023-10-18 16:03:21
+updated:
 tags:
   - vue
 description: 🐖
 top_img: "linear-gradient(35deg, rgba(150, 60, 140, 0.6), rgba(0, 0, 255, 0.3), rgba(128, 0, 128, 0.6), rgba(204, 0, 102, 0.6), rgba(100, 40, 100, 0.6))"
-abbrlink: f8e09374
-date: 2023-10-18 16:03:21
-updated:
 ---
 
 ## 渐进式 JavaScript 框架
@@ -28,6 +28,5 @@ updated:
 使用时需要加`value`
 
 ```js
-xxxx.value.validate
+xxxx.value.validate;
 ```
-

@@ -16,7 +16,7 @@ search:
   path: search.xml
   field: post
   content: true
-  template: ./search.xml
+  format: html
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: "https://rieraa.github.io"

@@ -2,10 +2,12 @@
 title: JS模块的导入导出
 abbrlink: 3e90cfd3
 date: 2023-11-12 19:22:50
-top_img: "linear-gradient(45deg, rgba(0, 128, 128, 0.6), rgba(128, 0, 128, 0.6), rgba(204, 0, 102, 0.6), rgba(100, 40, 100, 0.6), rgba(190, 60, 160, 0.6))"
 tags:
   - ES Moudle
   - CommonJS
+  - 模块化
+top_img: "linear-gradient(45deg, rgba(0, 128, 128, 0.6), rgba(128, 0, 128, 0.6), rgba(204, 0, 102, 0.6), rgba(100, 40, 100, 0.6), rgba(190, 60, 160, 0.6))"
+
 description: ☹️
 ---
 

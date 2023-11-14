@@ -1,24 +1,18 @@
 ---
 title: ES6使用手册
-categories: JavaScript 基础
-tags:
-  - javaScript
 abbrlink: 93bcf3e9
 date: 2023-10-11 21:49:55
-top_img: "linear-gradient(-45deg, #001f3f, #31578f, #820224)"
+tags:
+  - javaScript
+categories: JavaScript 基础
 description: 😶‍🌫️
+top_img: "linear-gradient(-45deg, #001f3f, #31578f, #820224)"
 ---
 
- 
-
-## 我用到的es6
+## 我用到的 es6
 
 1. 模板字面量：通过``标识字符串
-2. 
-
-
-
-
+2.
 
 ## 1.let 和 const
 

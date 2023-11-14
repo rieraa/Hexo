@@ -4,7 +4,8 @@ abbrlink: 65b69107
 date: 2023-10-31 21:40:19
 tags:
   - nginx
-categories: Network
+categories: 网络请求
+description: 🎄本文主要介绍 Nginx 的应用场景和基本配置
 top_img: "linear-gradient(60deg, rgba(0, 0, 255, 0.3), rgba(128, 0, 128, 0.6), rgba(204, 0, 102, 0.6), rgba(100, 40, 100, 0.6), rgba(190, 60, 160, 0.6))"
 ---
 

@@ -4,8 +4,9 @@ abbrlink: d7c881ac
 date: 2023-10-10 22:21:09
 tags:
   - node
+categories:
 description: 🥶
-top_img: 'linear-gradient(55deg, rgba(0, 0, 255, 0.6), rgba(128, 0, 128, 0.6), rgba(255, 0, 0, 0.6), rgba(0, 128, 0, 0.6), rgba(255, 255, 0, 0.6))'
+top_img: "linear-gradient(55deg, rgba(0, 0, 255, 0.6), rgba(128, 0, 128, 0.6), rgba(255, 0, 0, 0.6), rgba(0, 128, 0, 0.6), rgba(255, 255, 0, 0.6))"
 ---
 
 ## 基本使用

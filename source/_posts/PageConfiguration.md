@@ -2,29 +2,23 @@
 title: PageConfiguration
 abbrlink: dc78123f
 date: 2023-10-11 22:14:18
-tags: 
+tags:
   - config
 sticky: 999
 description: 记录常用到的配置
-top_img: 'linear-gradient(45deg, #001f3f, #284165, #59341a, #820224)'
+top_img: "linear-gradient(45deg, #001f3f, #284165, #59341a, #820224)"
 ---
+
 ## 表头配置
 
 ```markdown
-tags:
 categories:
-sticky: 
-top_img:
 description:
-updated:
+top_img: ''
 ```
-## 文章背景颜色
 
-```markdown
-top_img:"linear-gradient(45deg, #001f3f, #284165, #59341a, #820224)"
-```
 ## 更新时间
 
 ```markdown
-updated: 2023-10-12 09:31:06
+updated:
 ```
