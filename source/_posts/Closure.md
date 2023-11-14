@@ -3,8 +3,10 @@ title: Closure(函数闭包)
 abbrlink: 87bab44d
 date: 2023-11-05 22:48:29
 categories: JavaScript 深入学习
+top_img: "linear-gradient(20deg, rgba(0, 0, 255, 0.6), rgba(128, 0, 128, 0.6), rgba(255, 0, 0, 0.6), rgba(0, 128, 0, 0.6), rgba(255, 255, 0, 0.6))"
 tags:
   - closure
+description: 😛
 ---
 
 ## 什么是闭包

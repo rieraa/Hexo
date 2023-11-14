@@ -177,6 +177,10 @@ runtimeshow:
   enable: true
   publish_date: 10/10/2023 14:00:00
 
+# 搜索
+# Local search 
+local_search:
+  enable: true
 # 字数统计
 wordcount:
   enable: true

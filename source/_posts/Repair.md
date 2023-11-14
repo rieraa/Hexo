@@ -862,3 +862,7 @@ alert(typeof value); // string
 
 - 对 `undefined` 进行数字型转换时，输出结果为 `NaN`，而非 `0`。
 - 对 `"0"` 和只有空格的字符串（比如：`" "`）进行布尔型转换时，输出结果为 `true`。every
+
+## JS操作浏览器DOM
+
+- 使用 `document.querySelector` 获取一组符合 CSS 选择符的元素快照，类型为 NodeList（此对象是对于文档的实时运行的动态查询）

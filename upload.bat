@@ -8,7 +8,7 @@ if %errorlevel%==0 (
     :: 检查第二个命令是否成功执行
     if %errorlevel%==0 (
         :: 如果第二个命令成功执行，执行第三个命令 hexo d
-        call hexo s
+        call hexo d
     ) else (
         echo 第二个命令执行失败
     )

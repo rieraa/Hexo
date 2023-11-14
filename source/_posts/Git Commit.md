@@ -3,9 +3,9 @@ title: Git Commit
 tags:
   - git
 top_img: linear-gradient(25deg, rgba(204, 0, 102, 0.6), rgba(128, 0, 128, 0.6),rgba(190, 60, 160, 0.6), rgba(100, 40, 100, 0.6), rgba(0, 0, 255, 0.3))
-description: ☺️
 abbrlink: 70316f9e
 date: 2023-10-30 17:16:22
+description: 🥶
 ---
 
 ### **commit message 格式**
@@ -41,7 +41,7 @@ subject 是 commit 目的的简短描述，不超过 50 个字符。
 
 - 根据以上规范 git commit message 将是如下的格式：
 
-  ``` 2commit
+  ```2commit
   fix(DAO):用户查询缺少username属性
   feat(Controller):用户查询接口开发
   ```
