@@ -11,10 +11,6 @@ top_img: "linear-gradient(35deg, rgba(150, 60, 140, 0.6), rgba(0, 0, 255, 0.3), 
 
 ## 渐进式 JavaScript 框架
 
-## 生命周期！！
-
-![image-20230906162803200](https://cn.vuejs.org/assets/lifecycle.16e4c08e.png)
-
 ## 使用过程中遇到的问题
 
 ### 属性带不带冒号
@@ -30,3 +26,53 @@ top_img: "linear-gradient(35deg, rgba(150, 60, 140, 0.6), rgba(0, 0, 255, 0.3), 
 ```js
 xxxx.value.validate;
 ```
+
+### 插槽的使用（slot）
+
+示例：
+
+> FancyList.vue
+
+```vue
+<script setup>
+  import { ref } from 'vue'
+
+  const props = defineProps(['api-url', 'per-page'])
+
+  const items = ref([])
+
+  // mock remote data fetching
+  setTimeout(() => {
+    items.value = [
+      { body: 'Scoped Slots Guide', username: 'Evan You', likes: 20 },
+      { body: 'Vue Tutorial', username: 'Natalia Tepluhina', likes: 10 }
+    ]
+  }, 1000)
+</script>
+
+<template>
+  <ul>
+    <li v-if="!items.length">
+      Loading...
+    </li>
+    <li v-for="item in items">
+      <slot name="item" v-bind="item"/>
+    </li>
+  </ul>
+</template>
+
+<style scoped>
+  ul {
+    list-style-type: none;
+    padding: 5px;
+    background: linear-gradient(315deg, #42d392 25%, #647eff);
+  }
+  li {
+    padding: 5px 20px;
+    margin: 10px;
+    background: #fff;
+  }
+</style>
+```
+
+> 
