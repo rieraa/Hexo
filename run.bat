@@ -15,5 +15,6 @@ if %errorlevel%==0 (
 ) else (
     echo 第一个命令执行失败
     echo 详细错误信息：%errorlevel%
-    pause
 )
+
+pause
