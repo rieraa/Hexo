@@ -26,7 +26,7 @@ subtitle:
 description: '生生'
 keywords:
 author: rieraa
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -41,16 +41,16 @@ nav:
 
 # 导航栏配置
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
-  Manifest||fa fa-heartbeat:
-    music: /music/ || fas fa-music
-    photo: /gallery/ || fas fa-images
-    movie: /movies/ || fas fa-video
-  Link: /link/ || fas fa-link
-  About: /about/ || fas fa-heart
+  主页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  目录: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    # music: /music/ || fas fa-music
+    相册: /gallery/ || fas fa-images
+    # movie: /movies/ || fas fa-video
+  # 友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # 代码块设置
 highlight_theme: light
@@ -62,7 +62,7 @@ highlight_copy: true
 #   fab fa-github: https://github.com/xxxxx || Github || "#hdhfbb"
 #   fas fa-envelope: mailto:xxxxxx@gmail.com || Email || "#000000"
 
-#头像设置
+#头像设置zh-CN
 avatar:
   img: /img/avatar.jpg
   effect: false # 頭像會一直轉圈

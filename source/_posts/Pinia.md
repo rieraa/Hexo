@@ -6,12 +6,9 @@ updated: 2023-10-13 16:16:32
 tags:
   - StateManagement
   - vue
-description: 🍍
+description: 全局状态管理
 top_img: 'linear-gradient(45deg, rgba(204, 0, 102, 0.6), rgba(190, 60, 160, 0.6),rgba(100, 40, 100, 0.6), rgba(128, 0, 128, 0.6))'
-
 ---
-
-
 ## 快速上手
 
 - 安装
@@ -20,7 +17,7 @@ top_img: 'linear-gradient(45deg, rgba(204, 0, 102, 0.6), rgba(190, 60, 160, 0.6)
 npm install pinia
 ```
 
-- 入口文件中引入,将`pinia`挂载到`Vue`应用中
+- 入口文件中引入,将 `pinia`挂载到 `Vue`应用中
 
 ```ts
 // main.ts
@@ -65,7 +62,7 @@ export const useUsersStore = defineStore('users', {
 
 - 使用store
 
-利用`pinia`的`storeToRefs`函数，将`state`中的数据变为了响应式的。
+利用 `pinia`的 `storeToRefs`函数，将 `state`中的数据变为了响应式的。
 
 ```ts
 /src/App.vue
@@ -98,4 +95,3 @@ store.$patch((state) => {
   state.hasChanged = true
 })
 ```
-
